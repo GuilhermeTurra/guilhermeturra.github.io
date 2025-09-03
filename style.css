@@ -1,0 +1,40 @@
+body { 
+    font: normal 14pt Arial; 
+    margin: 20px; 
+    background-color: white;
+}
+#titulo { 
+    background: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 530px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.767); 
+}
+#projetos {
+  display: flex;          /* coloca os cards lado a lado */
+  gap: 20px;              /* espaço entre as caixas */
+  flex-wrap: wrap;        /* quebra linha se não couber na tela */
+}
+#card { 
+    flex: 1;                /* cards se ajustam */
+    min-width: auto;       /* largura mínima  */
+    background: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.767);
+}
+#card2 { 
+    flex: 1;                
+    min-width: auto;     
+    background: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.767);
+}
+footer {
+    font: normal 12pt Arial Black;
+    font-style: italic;
+    text-align: center;
+}
