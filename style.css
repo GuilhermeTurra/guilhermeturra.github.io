@@ -6,6 +6,20 @@ body {
 #titulo { 
     text-align: center; 
 }
+img {
+    width: 150px;
+    height: 150px;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+#wel {
+    text-align: center;
+    font: normal 16pt Arial;
+}
 #projetos {
   display: flex;          /* coloca os cards lado a lado */
   gap: 20px;              /* espaço entre as caixas */
