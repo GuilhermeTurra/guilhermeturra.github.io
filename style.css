@@ -3,15 +3,12 @@ body {
     margin: 20px; 
     background-color: white;
 }
-#titulo { 
-    text-align: center; 
+header{
+    text-align: center;
 }
 img {
     width: 150px;
     height: 150px;
-}
-h2 {
-    text-align: center;
 }
 h3 {
     text-align: center;
